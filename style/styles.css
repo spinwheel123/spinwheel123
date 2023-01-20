@@ -1,0 +1,47 @@
+.wheel0{
+  margin-top: 60px;
+}
+
+#prizePointer{
+  width: 9%;
+  margin-left:0px;
+  position: absolute;
+  top: 17px;
+  left: 390px;
+  z-index: 999;
+}
+
+.selection{
+    position: absolute;
+z-index: 999;
+top:100px;
+  left:700px;
+}
+.create{
+  margin-left: 600px;
+}
+
+
+.tlist{
+  position: absolute;
+z-index: 999;
+left:700px;
+top:25px;
+}
+td {
+  height: 50px;
+  vertical-align: top;
+}
+#canvasContainer {
+    position: relative;
+    width: 300px;
+    margin-top:100px;
+}
+ 
+#canvas {
+    z-index: 1;
+}
+ 
+
+ 
+ 

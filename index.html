@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src='winwheel1/Winwheel.js'></script>
+<link rel="stylesheet" href="style/styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  </head>
+  <body>
+
+<div id="canvasContainer">
+    <canvas id='myCanvas' width='880' height='300'>
+        Canvas not supported, use another browser.
+    </canvas>
+    <img id="prizePointer" src="https://thewheel.com/home-2022/images/wheel-pointer.png" alt="V" />
+    </div>
+
+    <script>
+  let tw;
+      function ff(cnt111, ol111){
+        let theWheel = new Winwheel({
+            'canvasId'    : 'myCanvas',
+            'numSegments' : cnt111,
+            'textFontSize'    : 10,
+            'segments'    :ol111,
+            'animation' :{
+                    'type'     : 'spinToStop',
+                    'duration' : 5,
+                    'spins'    : 8,
+                    'callbackFinished' : 'alertPrize()',
+                }
+        });
+        tw=theWheel;
+      return theWheel;
+    }
+
+
+    </script>
+
+    <button id="bigButton" class="bigButton" onclick="tw.startAnimation(); this.disabled=true;">Spin the Wheel</button>
+    <button onclick="tw.rotationAngle=0; tw.draw(); bigButton.disabled=false;">Reset</button>
+
+
+
+
+
+<div class="tlist">
+
+
+<table>
+  <tr class="minitable">
+
+<td>
+
+
+<label for=""><b>9. klase</b></label><br><br>
+<div class="9" id="9">
+  <input type="checkbox" class="9" id="Dolgovs-Aleksejs" name="Dolgovs-Aleksejs" ><label for="Dolgovs-Aleksejs">Dolgovs Aleksejs</label><br>
+  <input type="checkbox" class="9" id="Drengers-Kristers" name="Drengers-Kristers" ><label for="Drengers-Kristers">Drengers Kristers</label><br>
+  <input type="checkbox" class="9" id="Golmeisters-Ralfs" name="Golmeisters-Ralfs" ><label for="Golmeisters-Ralfs">Golmeisters Ralfs</label><br>
+  <input type="checkbox" class="9" id="Korago-Rihards" name="Korago-Rihards" ><label for="Korago-Rihards">Korago Rihards</label><br>
+  <input type="checkbox" class="9" id="Lamberts-Dairis" name="Lamberts-Dairis" ><label for="Lamberts-Dairis">Lamberts Dairis</label><br>
+  <input type="checkbox" class="9" id="Blumbergs-Madars" name="Blumbergs-Madars" ><label for="Blumbergs-Madars">Blumbergs Madars</label><br>
+  <input type="checkbox" class="9" id="Pojarkova-Diāna" name="Pojarkova-Diāna" ><label for="Pojarkova-Diāna">Pojarkova Diāna</label><br>
+  <input type="checkbox" class="9" id="Sprūde-Mihails" name="Sprūde-Mihails" ><label for="Sprūde-Mihails">Sprūde Mihails</label><br><br>
+  <button id="all9" name="all9" checked><label for="all9" onclick="all99()">All</button><br>
+<script>
+  function all99(){
+    for (let i=0; i<9; i++){
+      let el =    document.getElementsByClassName('9')[i];
+      el.checked=true;
+    }
+
+
+  }
+</script>
+</div>
+
+</td>
+<td>
+<label for=""><b>10. klase</b></label><br><br>
+<div class="10" id="10">
+  <input type="checkbox" class="10" id="Berģis-Kalns Kristers" name="Berģis-Kalns-Kristers" ><label for="Berģis-Kalns-Kristers">Berģis-Kalns Kristers</label><br>
+  <input type="checkbox" class="10" id="Birkāne-Eva-Evalīna" name="Birkāne-Eva-Evalīna" ><label for="Birkāne-Eva-Evalīna">Birkāne Eva Evalīna</label><br>
+  <input type="checkbox" class="10" id="  Brūns Ernests" name="  Brūns Ernests" ><label for="  Brūns Ernests">  Brūns Ernests</label><br>
+  <input type="checkbox" class="10" id="Gulovs Daniils" name="Gulovs Daniils" ><label for="Gulovs Daniils">Gulovs Daniils</label><br>
+  <input type="checkbox" class="10" id="Jakubone Tīna" name="Jakubone Tīna" ><label for="Jakubone Tīna">Jakubone Tīna</label><br>
+  <input type="checkbox" class="10" id="Kažmere Sabīne" name="Kažmere Sabīne" ><label for="Kažmere Sabīne">Kažmere Sabīne</label><br>
+  <input type="checkbox" class="10" id="Kļaviņa Elizabete" name="Kļaviņa Elizabete" ><label for="Kļaviņa Elizabete">Kļaviņa Elizabete</label><br>
+  <input type="checkbox" class="10" id="Liekmane Dora" name="Liekmane Dora" ><label for="Liekmane Dora">Liekmane Dora</label><br>
+  <input type="checkbox" class="10" id="Miezītis Linards" name="Miezītis Linards" ><label for="Miezītis Linards">Miezītis Linards</label><br>
+  <input type="checkbox" class="10" id="Mihņēviča Elza" name="Mihņēviča Elza" ><label for="Mihņēviča Elza">Mihņēviča Elza</label><br>
+  <input type="checkbox" class="10" id="Trubčaņins Maksims" name="Trubčaņins Maksims" ><label for="Trubčaņins Maksims">Trubčaņins Maksims</label><br>
+  <input type="checkbox" class="10" id="Veispals Lauris Dāniels" name="Veispals Lauris Dāniels" ><label for="Veispals Lauris Dāniels">Veispals Lauris Dāniels</label><br>
+  <input type="checkbox" class="10" id="Paune Viktorija" name="Paune Viktorija" ><label for="Paune Viktorija">Paune Viktorija</label><br><br>
+
+  <button id="all10" name="all10" checked><label for="all10" onclick="all1010()">All</button><br>
+<script>
+  function all1010(){
+    for (let i=0; i<14; i++){
+      let el =    document.getElementsByClassName('10')[i];
+      el.checked=true;
+    }
+  }
+</script>
+</div>
+
+
+
+
+</td>
+<td>
+<label for=""><b>11. klase</b></label><br><br>
+<div class="11" id="11">
+  <input type="checkbox" class="11" id="Agare Kate" name="Agare Kate" ><label for="Agare Kate">Agare Kate</label><br>
+  <input type="checkbox" class="11" id="Andersons Vladislavs" name="Andersons Vladislavs" ><label for="Andersons Vladislavs">Andersons Vladislavs</label><br>
+  <input type="checkbox" class="11" id="Baibekovs Dilans" name="Baibekovs Dilans" ><label for="Baibekovs Dilans">Baibekovs Dilans</label><br>
+  <input type="checkbox" class="11" id="Bīrītis Bruno" name="Bīrītis Bruno" ><label for="Bīrītis Bruno">Bīrītis Bruno</label><br>
+  <input type="checkbox" class="11" id="Drengers Nikolass" name="Drengers Nikolass" ><label for="Drengers Nikolass">Drengers Nikolass</label><br>
+  <input type="checkbox" class="11" id="Dzenis Andris" name="Dzenis Andris" ><label for="Dzenis Andris">Dzenis Andris</label><br>
+  <input type="checkbox" class="11" id="Jurdžs Kristers" name="Jurdžs Kristers" ><label for="Jurdžs Kristers">Jurdžs Kristers</label><br>
+  <input type="checkbox" class="11" id="Koniševa Jūlija" name="Koniševa Jūlija" ><label for="Koniševa Jūlija">Koniševa Jūlija</label><br>
+  <input type="checkbox" class="11" id="Kudelko Marko" name="Kudelko Marko" ><label for="Kudelko Marko">Kudelko Marko</label><br>
+  <input type="checkbox" class="11" id="Mamontovs Sandis" name="Mamontovs Sandis" ><label for="Mamontovs Sandis">Mamontovs Sandis</label><br>
+  <input type="checkbox" class="11" id="Misjuro Eimija" name="Misjuro Eimija" ><label for="Misjuro Eimija">Misjuro Eimija</label><br>
+  <input type="checkbox" class="11" id="Pojarkova Vanesa" name="Pojarkova Vanesa" ><label for="Pojarkova Vanesa">Veispals Lauris Dāniels</label><br>
+  <input type="checkbox" class="11" id="Prūsis Rihards" name="Prūsis Rihards" ><label for="Prūsis Rihards">Paune Viktorija</label><br>
+  <input type="checkbox" class="11" id="Rakicka Daniela" name="Rakicka Daniela" ><label for="Rakicka Daniela">Rakicka Daniela</label><br>
+  <input type="checkbox" class="11" id="Šmits Kristers" name="Šmits Kristers" ><label for="Šmits Kristers">Šmits Kristers</label><br><br>
+
+  <button id="all11" name="all11" checked><label for="all11" onclick="all1111()">All</button><br>
+<script>
+  function all1111(){
+    for (let i=0; i<16; i++){
+      let el =    document.getElementsByClassName('11')[i];
+      el.checked=true;
+    }
+  }
+</script>
+
+</td>
+    </tr>
+</table>
+</div>
+
+  <button type="button" name="button" class="create" onclick="changewheel()">Create Wheel</button>
+
+
+<script>
+function changewheel(){
+let colorlist=["#eae56f", '#89f26e','#7de6ef','#e7706f','#e7702f', "#8EA7E9", "#FFD4D4", "#F55050", "#B7B78A", "#B05A7A", "#FF8B13", "#9DF1DF", "#FDA769", "#C780FA", "#0081C9", "#E1D7C6"]
+  let cnt11=0;
+  let l11=[];
+for (let i = 1; i<16; i++){
+  if (document.getElementsByClassName("11")[i].checked){
+    cnt11+=1;
+  l11.push(document.getElementsByClassName("11")[i].name);}
+}
+let ol11=[];
+for (let i = 0; i<cnt11; i++){
+  let obj={"fillStyle" : colorlist[i], "text" : l11[i]};
+  ol11.push(obj);
+}
+
+
+let cnt10=0;
+let l10=[];
+for (let i = 1; i<14; i++){
+if (document.getElementsByClassName("10")[i].checked){
+  cnt10+=1;
+  l10.push(document.getElementsByClassName("10")[i].name);}
+}
+let ol10=[];
+for (let i = 0; i<cnt10; i++){
+  let obj={"fillStyle" : colorlist[i], "text" : l10[i]};
+  ol10.push(obj);
+}
+
+
+let cnt9=0;
+let l9=[];
+for (let i = 1; i<9; i++){
+if (document.getElementsByClassName("9")[i].checked){
+  cnt9+=1;
+  l9.push(document.getElementsByClassName("9")[i].name);}
+}
+let ol9=[];
+for (let i = 0; i<cnt9; i++){
+  let obj={"fillStyle" : colorlist[i], "text" : l9[i]};
+  ol9.push(obj);
+}
+
+
+if (cnt11!=0){ff(cnt11,ol11);}
+if (cnt10!=0){ff(cnt10,ol10);}
+if (cnt9!=0){ff(cnt9,ol9);}
+}
+</script>
+
+
+      </body>
+</html>
